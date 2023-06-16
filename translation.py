@@ -56,7 +56,7 @@ ABOUT_TEXT = '''**Hey! My name is tulinks.one. I am Link Converter Bot.**
 
 • **No** need to share **password or email** to convert links.**
 
- Anyone who want to use any **other shortner** instead of ShortnerFly than **contact** at 👉 @abhi_the_machinegun (all **shortners support** available.)
+ Anyone who want to use any **other shortner** instead of tulinks than **contact** at 👉 @abhi_the_machinegun (all **shortners support** available.)
 
 **Click On Custom Alias To Create Custom Link**
 '''
