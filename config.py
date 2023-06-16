@@ -14,13 +14,13 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "
 ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("5268607724")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "ghhh")
-DATABASE_URL = os.getenv("DATABASE_URL", "Monfo url") 
+DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Popo:omprtngslb@cluster0.xnrrnjr.mongodb.net/?retryWrites=true&w=majority") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "5268607724")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
 ADMINS.append(5268607724)
 #  Optionnal variables
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "Logs Channels Id")) 
-UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "Updates Channel User name Without @") # For Force Subscription
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001606444570")) 
+UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "tulinks_official") # For Force Subscription
 BROADCAST_AS_COPY = os.environ.get('BROADCAST_AS_COPY', "True") # true if forward should be avoided
 WELCOME_IMAGE = os.environ.get("WELCOME_IMAGE", '') # image when someone hit /start # image when someone hit /start
 LINK_BYPASS = "False"
